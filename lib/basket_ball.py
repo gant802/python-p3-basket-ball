@@ -232,34 +232,6 @@ def player_stats(player_name):
             player_stats = player
     return player_stats
 
-# def average_rebounds_by_shoe_brand():
-#     shoe_rebound_dict = {
-#         "Jordan": [],
-#         "Adidas": [],
-#         "Nike": [],
-#         "Puma": []
-#     }
-#     averages_list = []
-#     players = all_players()
-#     for player in players:
-#         if player['shoe_brand'] == 'Jordan':
-#             shoe_rebound_dict['Jordan'].append(player['rebounds_per_game'])
-#         elif player['shoe_brand'] == 'Nike':
-#             shoe_rebound_dict['Nike'].append(player['rebounds_per_game'])
-#         elif player['shoe_brand'] == 'Puma':
-#             shoe_rebound_dict['Puma'].append(player['rebounds_per_game'])
-#         elif player['shoe_brand'] == 'Adidas':
-#             shoe_rebound_dict['Adidas'].append(player['rebounds_per_game'])
-#     for key, value in shoe_rebound_dict:
-#         average_rebounds = sum(value) / len(value)
-#         averages_list.append(f"{key}. {average_rebounds}")
-
-#     print(averages_list)
-
-
-# average_rebounds_by_shoe_brand()
-
-
 def average_rebounds_by_shoe_brand():
     shoe_rebound_dict = {
         "Nike": [],
